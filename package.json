@@ -1,0 +1,16 @@
+{
+  "name": "world-agent-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "World Agent Network Android app",
+  "scripts": {
+    "build": "echo 'Static app - Capacitor packages the www directory'"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.6.9",
+    "@capacitor/core": "7.6.9"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.6.9"
+  }
+}
