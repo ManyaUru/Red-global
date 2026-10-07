@@ -22,8 +22,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
-       - name: Configurar Android
-          uses: android-actions/setup-android@v4
+      - name: Configurar Android
+        uses: android-actions/setup-android@v4
 
       - name: Instalar herramientas Android
         run: |
